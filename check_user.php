@@ -1,4 +1,5 @@
 <?php
+//test of git
 	require_once 'database_jobs.php';
 	  session_start();
 			$con=new DataBase();//creating opject
