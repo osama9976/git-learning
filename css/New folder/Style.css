@@ -1,0 +1,150 @@
+body {
+	
+}
+.hide {
+	display: none;
+}
+.details {
+	display: none;
+}
+.fld {
+	margin: 10px; width: 295px; float: right;
+}
+.fld2 {
+	margin: 10px; width: 573px; float: right;
+}
+.fld2 select {
+	min-width: 235px;
+}
+.fld label {
+	padding: 0px 0px 0px 5px; width: 120px; text-align: left; font-weight: normal;
+}
+.fld input {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.fld select {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.fld input[type=text] {
+	padding: 2px; width: 150px;
+}
+.fld select {
+	padding: 2px; width: 150px;
+}
+input[type=text] {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+input[type=password] {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.date {
+	width: 80px !important;
+}
+.fld select {
+	padding: 1px 2px;
+}
+.modal-dialog-width {
+	
+}
+.fld input[type='checkbox'] + label {
+	width: 145px; text-align: right; padding-right: 5px;
+}
+.fld .txtDesc {
+	width: 100%;
+}
+input[type='radio'] {
+	margin: 0px !important;
+}
+input[type='checkbox'] {
+	margin: 0px !important;
+}
+.footer-btn {
+	padding: 20px; width: 50%; text-align: left;
+}
+input[type=text]:focus {
+	padding: 1px 2px; border: 2px solid rgb(102, 175, 233); border-image: none;
+}
+input[type=password]:focus {
+	padding: 1px 2px; border: 2px solid rgb(102, 175, 233); border-image: none;
+}
+.btn-group {
+	border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; margin-right: 10px; box-shadow: 2px 2px 2px 2px #cccccc;
+}
+.btn-group-vertical {
+	border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; margin-right: 10px; box-shadow: 2px 2px 2px 2px #cccccc;
+}
+.dropdown-togg-default {
+	width: 1px;
+}
+.dropdown-toggle {
+	left: 0px !important; top: 0px !important; width: 100% !important; height: 100% !important; position: absolute !important;
+}
+.caret {
+	margin-top: 9px !important; margin-left: -2px !important; float: left !important;
+}
+.btn-group {
+	padding-left: 8px !important;
+}
+.btn-group-vertical {
+	padding-left: 8px !important;
+}
+.login2 {
+	color: rgb(255, 255, 255);
+}
+.login-DisplayName {
+	
+}
+.new-user {
+	
+}
+.new-user ul {
+	padding: 0px;
+}
+.new-user ul li {
+	list-style: none;
+}
+.new-user .modal-details label:first-child {
+	width: 180px; color: rgb(0, 114, 188); clear: right; float: right; display: block;
+}
+.new-user .modal-details label {
+	min-height: 26px;
+}
+.new-user .modal-details label:nth-child(2) {
+	padding: 3px; width: 820px; color: rgb(127, 127, 127); float: right; display: block; min-width: 150px; box-shadow: 0px 1px 0px #cccccc;
+}
+.new-user .modal-details label:nth-child(2) {
+	width: 470px;
+}
+.new-user .new-user-control {
+	width: 100%;
+}
+.table > tbody > tr:first-child > td {
+	border-top-color: currentColor !important; border-top-width: medium !important; border-top-style: none !important;
+}
+.select-group-width {
+	width: 100%; margin-right: 0px;
+}
+.select-group-width .dropdown-menu {
+	width: 100%; margin-top: -63px;
+}
+.select-group-Category {
+	min-width: 55% !important;
+}
+.displayNone {
+	display: none;
+}
+.checkbox label {
+	line-height: 0.8; margin-right: 4px;
+}
+.item-selected {
+	color: green; font-weight: bold; background-color: rgb(245, 245, 245);
+}
+.item-selected .btn {
+	color: green;
+}
+.category-txt {
+	width: 218px !important;
+}
+.dropdown-menu {
+	width: 100%;
+}

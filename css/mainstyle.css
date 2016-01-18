@@ -1,0 +1,380 @@
+@font-face {
+	font-family: fd_b;
+	src: url(fd-b.eot);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: fd_b;
+	src: url(fd-b.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: fd_l;
+	src: url(fd-l.eot);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: fd_l;
+	src: url(fd-l.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: fd_b;
+	src: url(../fonts/fd-b-webfont.woff);
+}
+@font-face {
+	font-family: fd_l;
+	src: url(../fonts/fd-l-webfont.woff);
+}
+body {
+	font-family: DroidKufi-regular; direction: rtl; background-color: rgb(239, 238, 239);
+}
+header {
+	width: 100%; height: 100px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);
+}
+.login {
+	padding: 6px 12px; border-radius: 0px 0px 6px 6px; color: rgb(255, 255, 255); margin-right: 100px; float: right; background-color: rgb(0, 114, 188);
+}
+header .container {
+	border: 1px solid rgb(255, 255, 255); border-image: none;
+}
+.col-lg-4 h4 {
+	margin-top: 30px;
+}
+.header {
+	width: 100%;
+}
+.header ul {
+	margin-top: 30px; margin-right: 120px; display: block; min-height: 30px; background-color: rgb(0, 114, 188);
+}
+.header ul li {
+	list-style: none; font-family: DroidKufi-regular !important; margin-right: 0px; float: right;
+}
+.header ul li a {
+	width: 103px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 2.4; text-decoration: none; display: block;
+}
+.header ul li.selected {
+	background-color: rgb(0, 0, 0);
+}
+.header ul li:hover {
+	background-color: rgb(0, 0, 0);
+}
+.header ul li.selected::after {
+	margin: -5px auto 0px; width: 0px; border-right-color: rgba(0, 0, 0, 0); border-bottom-color: rgb(255, 255, 255); border-left-color: rgba(0, 0, 0, 0); border-right-width: 8px; border-bottom-width: 5px; border-left-width: 8px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: block; content: "";
+}
+.header ul li:hover::after {
+	margin: -5px auto 0px; width: 0px; border-right-color: rgba(0, 0, 0, 0); border-bottom-color: rgb(255, 255, 255); border-left-color: rgba(0, 0, 0, 0); border-right-width: 8px; border-bottom-width: 5px; border-left-width: 8px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: block; content: "";
+}
+.content {
+	margin: 0px -1px; padding: 15px 20px 10px; border-radius: 4px; border: 1px solid rgb(224, 224, 224); border-image: none; width: 100%; height: auto; float: right; min-height: 400px; background-repeat: repeat; background-color: rgb(253, 253, 253); -moz-box-sizing: border-box;
+}
+.main-contaent {
+	width: 100%; height: 450px;
+}
+.area-control {
+	height: 350px; margin-top: 10px;
+}
+.control-btn {
+	width: 537px; height: 134px; margin-top: 30px; margin-right: 40px; border-bottom-color: rgb(0, 114, 188); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.control-btn ul li {
+	list-style: none; width: 126px; height: 131px; padding-top: 10px; font-family: DroidKufi-regular !important; margin-right: 40px; float: right; background-color: rgb(241, 242, 247);
+}
+.control-btn ul li span {
+	margin-right: 25px;
+}
+.control-btn ul li label {
+	width: auto; text-align: center; color: rgb(115, 204, 203); margin-top: 5px; display: block;
+}
+.control-btn ul li:nth-child(1) {
+	margin-right: 0px !important;
+}
+.control-btn ul li a {
+	text-decoration: none;
+}
+.control-btn ul li:nth-child(1):hover span img {
+	transition:1s ease-in-out; transform: perspective(700px) rotate(360deg); -webkit-transform: perspective( 700px ) rotate(360deg); -webkit-transition: all 1s ease-in-out 0s;
+}
+.control-btn ul li:nth-child(2):hover span img {
+	transition:1s ease-in-out; transform: perspective(700px) rotate(360deg); -webkit-transform: perspective( 700px ) rotate(360deg); -webkit-transition: all 1s ease-in-out 0s;
+}
+.control-btn ul li:nth-child(3):hover span img {
+	transition:1s ease-in-out; transform: perspective(700px) rotate(360deg); -webkit-transform: perspective( 700px ) rotate(360deg); -webkit-transition: all 1s ease-in-out 0s;
+}
+.qicklink {
+	width: 619px; height: 150px; margin-top: 10px; margin-right: 40px;
+}
+.stage1 {
+	border: 1px solid rgb(204, 204, 204); border-image: none; width: 156px; height: 149px; margin-right: 15px; float: right; box-shadow: 2px 1px 7px #ccc;
+}
+.stage1:hover {
+	border: 1px solid rgb(255, 108, 96); border-image: none;
+}
+.stage1 ul {
+	padding-right: 2px; margin-top: 10px;
+}
+.stage1 ul li {
+	background-position: 135px 10px; list-style: none; padding-right: 25px; margin-top: 5px; background-image: url("../imgs/icon-mune-rwo.png"); background-repeat: no-repeat;
+}
+.stage1 ul li a {
+	color: rgb(169, 169, 169); font-size: 12px !important; font-weight: bold;
+}
+.stage1 ul li a:hover {
+	color: rgb(0, 114, 188); font-weight: bold;
+}
+.panel-user-info {
+	padding: 10px; border: 1px solid rgb(212, 213, 214); border-image: none; width: 273px; height: 105px; margin-top: 10px; margin-right: -10px; margin-left: 30px; float: left; background-color: rgb(241, 242, 247);
+}
+.panel-user-info:hover img {
+	transition:1s ease-in-out; transform: perspective(700px) rotate(360deg); -webkit-transform: perspective( 700px ) rotate(360deg); -webkit-transition: all 1s ease-in-out 0s;
+}
+.icon-s {
+	width: 120px; height: 84px; float: right;
+}
+.icon-s > img {
+	margin-top: 20px; margin-right: 35px;
+}
+.info-s {
+	width: 131px; height: 84px; float: right; background-color: rgb(255, 255, 255);
+}
+.infoList ul {
+	text-align: center; padding-right: 0px; margin-top: 5px;
+}
+.infoList ul li {
+	list-style: none;
+}
+.infoList ul li:nth-child(1) {
+	color: rgb(198, 202, 214); font-size: 35px; font-weight: bold;
+}
+.infoList ul li:nth-child(2) {
+	color: rgb(134, 177, 177); font-size: 14px; font-weight: bold;
+}
+.box {
+	width: 250px; height: 90px; background-color: rgb(255, 255, 255);
+}
+.user {
+	border-radius: 5px 0px 0px 5px; background-color: rgb(0, 114, 188);
+}
+.dwrah {
+	border-radius: 5px 0px 0px 5px; background-color: rgb(255, 108, 96);
+}
+.cuors {
+	border-radius: 5px 0px 0px 5px; background-color: rgb(87, 200, 242);
+}
+.filter {
+	margin-bottom: 10px;
+}
+.btns-ul {
+	text-align: center; float: right;
+}
+.btns-ul li {
+	list-style: none;
+}
+.details li {
+	list-style: none;
+}
+.details label:first-child {
+	width: 180px; color: rgb(0, 114, 188); clear: right; float: right; display: block;
+}
+.modal-details label:first-child {
+	width: 180px; color: rgb(0, 114, 188); clear: right; float: right; display: block;
+}
+.details label:nth-child(2) {
+	padding: 3px; color: rgb(127, 127, 127); float: right; display: block; min-width: 150px; box-shadow: 0px 1px 0px #cccccc;
+}
+.modal-details label:nth-child(2) {
+	padding: 3px; color: rgb(127, 127, 127); float: right; display: block; min-width: 150px; box-shadow: 0px 1px 0px #cccccc;
+}
+.modal-details label {
+	min-height: 26px;
+}
+.modal-details label:nth-child(2) {
+	width: 355px;
+}
+.detailsPage .label-title {
+	color: rgb(0, 114, 188); clear: right; font-weight: bold; margin-bottom: 5px; float: right; display: block; min-height: 26px;
+}
+.detailsPage .label-text {
+	padding: 3px; color: rgb(127, 127, 127); font-weight: bold; margin-bottom: 5px; float: right; display: block; min-height: 26px; min-width: 150px; box-shadow: 0px 1px 0px #cccccc;
+}
+.detailsPage {
+	width: 100%; clear: both; display: inline-block;
+}
+.detailsPage label {
+	min-height: 26px;
+}
+.pgr {
+	margin-bottom: 15px;
+}
+.pgr a {
+	background: linear-gradient(rgb(27, 164, 241), rgb(0, 114, 178)) 0px 0px rgba(0, 0, 0, 0); font: 20px/normal "Midan W20"; margin: 2px 7px 2px 80px; padding: 3px 10px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; float: left; display: inline-block; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.pgr td > span {
+	background: linear-gradient(rgb(27, 164, 241), rgb(0, 114, 178)) 0px 0px rgba(0, 0, 0, 0); font: 20px/normal "Midan W20"; margin: 2px 7px 2px 80px; padding: 3px 10px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; float: left; display: inline-block; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.pgr span > span {
+	background: linear-gradient(rgb(27, 164, 241), rgb(0, 114, 178)) 0px 0px rgba(0, 0, 0, 0); font: 20px/normal "Midan W20"; margin: 2px 7px 2px 80px; padding: 3px 10px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; float: left; display: inline-block; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.pgr a {
+	margin: 1px;
+}
+.pgr td > span {
+	margin: 1px;
+}
+.pgr span > span {
+	margin: 1px;
+}
+.pgr td > span {
+	background: rgb(0, 114, 188);
+}
+.pgr span > span {
+	background: rgb(0, 114, 188);
+}
+.well label {
+	min-height: 26px;
+}
+.btn-group > .btn {
+	float: none !important;
+}
+.btn-group-vertical > .btn {
+	float: none !important;
+}
+.dropdown-menu {
+	left: auto !important;
+}
+.table table tr td:last-child {
+	padding-right: 25px;
+}
+.Validator {
+	color: rgb(255, 0, 0); line-height: 0.1; font-size: 30px;
+}
+.info {
+	margin: 10px 10px 30px; width: 100%; text-align: center; color: rgb(0, 128, 0); clear: both; font-size: 150%; font-weight: bold; float: right;
+}
+.errormessage {
+	margin: 10px 10px 30px; width: 100%; text-align: center; color: rgb(255, 0, 0); clear: both; font-size: 120%; float: right;
+}
+.infoDetails {
+	margin: 10px 10px 30px; width: 100%; text-align: center; color: rgb(0, 128, 0); clear: both; font-size: 150%; font-weight: bold; float: right;
+}
+.errormessageDetails {
+	margin: 10px 10px 30px; width: 100%; text-align: center; color: rgb(255, 0, 0); clear: both; font-size: 120%; float: right;
+}
+.empty {
+	padding: 10px; border: 2px dashed rgb(255, 0, 0); border-image: none; text-align: center; line-height: 1.5; clear: both; font-weight: bold; display: block;
+}
+.userlogin {
+	background: 0px 0px rgb(0, 114, 188); padding: 10px 25px 0px 0px; border-radius: 5px; width: 20%; right: 10%; margin-top: 40px; position: absolute; z-index: 100;
+}
+.userlogin .arrow {
+	border-width: 11px; border-style: solid; border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(0, 114, 188); top: -22px; right: 39%; position: absolute;
+}
+.failureNotification {
+	color: rgb(255, 0, 0);
+}
+.userlogin label {
+	width: 65px;
+}
+.jointip::before {
+	border-width: 13px; border-style: solid; border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(0, 114, 188); margin: 0px auto; left: 48%; top: -26px; width: 0px; height: 0px; display: inline; position: absolute; content: "";
+}
+.jointip {
+	margin: 30px 0px 0px; padding: 15px; border-radius: 5px; text-align: center; color: rgb(255, 255, 255); line-height: 1.4; font-family: arial; font-size: medium; font-weight: bold; display: none; position: absolute; z-index: 2; min-width: 200px; max-width: 400px; background-color: rgb(0, 114, 188);
+}
+button.close {
+	padding: 0px 5px; left: 4px; top: 0px; position: absolute;
+}
+.msg-notifiy {
+	position: relative;
+}
+a.msg-notifiy > span {
+	background: 0px 0px rgb(12, 122, 211); padding: 5px; border-radius: 14px; left: -20px; top: 0px; color: rgb(255, 255, 255); line-height: 1; font-size: 14px; font-weight: bold; float: left; position: absolute;
+}
+.newmsg {
+	border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important; background-color: rgb(255, 255, 192);
+}
+.choose-item {
+	margin: 0px auto; padding: 12px 15px 20px; border: 1px solid rgb(215, 215, 215); border-image: none; position: relative;
+}
+.choose-item .title {
+	margin: 8px 0px 0px !important; color: rgb(102, 102, 102); font-size: 19px; float: right;
+}
+.choose-item img {
+	margin: 0px auto; display: block;
+}
+.custom-item {
+	margin: 10px auto; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.custom-item ul {
+	padding: 0px;
+}
+.custom-item ul li {
+	list-style: none;
+}
+.custom-item h3 {
+	margin: 0px; color: rgb(76, 164, 221); font-size: 15px; font-weight: bold;
+}
+.custom-item p {
+	margin: 10px 0px;
+}
+.ul-panel {
+	margin-bottom: 0px;
+}
+.custom-item ul.ul-panel li:first-child {
+	height: 95px; text-align: center; overflow: hidden; padding-top: 10px; padding-right: 0px;
+}
+.custom-item ul.ul-panel li {
+	list-style: none; text-align: right; color: rgb(97, 97, 97); padding-right: 10px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.custom-item ul.ul-panel li:last-child {
+	padding: 10px 0px; text-align: center; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; background-color: rgb(239, 236, 236);
+}
+.custom-item .btn {
+	border-radius: 0px;
+}
+.custom-width td {
+	width: 25% !important;
+}
+.custom-item .bluebtn.btn {
+	border-radius: 0px; color: rgb(255, 255, 255); background-color: rgb(76, 164, 221);
+}
+.btn-myclose {
+	padding: 0px 2px; line-height: 0.8; font-size: 25px; font-weight: bold; float: left; cursor: pointer; opacity: 0.3; background-color: rgb(255, 255, 255);
+}
+.btn-myclose:hover {
+	opacity: 1;
+}
+.modal-details {
+	clear: both; display: inline-block;
+}
+footer {
+	
+}
+.float-left {
+	float: left;
+}
+.fot-content {
+	padding: 15px 20px 10px; border-radius: 4px 4px 0px 0px; border: 1px solid rgb(224, 224, 224); border-image: none; height: auto; font-size: 0.8em; margin-top: 20px; min-height: 60px; box-sizing: border-box; background-repeat: repeat; background-color: rgb(253, 253, 253);
+}
+@media screen and (max-width:767px)
+{
+.header ul {
+	padding-right: 0px !important; margin-right: 0px !important;
+}
+.header ul li {
+	float: none !important; display: list-item !important;
+}
+.header ul li a {
+	width: 100%; display: block !important;
+}
+}
+.login-to-reg {
+	color: rgb(127, 255, 212);
+}
+.Details-Course-Name {
+	margin: 0px 5px 20px; color: rgb(0, 114, 188); padding-right: 20px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;
+}
