@@ -1,5 +1,5 @@
 <?php
-//test of git
+//test of git 2
 	require_once 'database_jobs.php';
 	  session_start();
 			$con=new DataBase();//creating opject
